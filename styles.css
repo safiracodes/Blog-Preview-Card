@@ -1,0 +1,76 @@
+body{
+  background-color: #F4D04E;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Figtree", sans-serif;
+  min-height: 100vh;
+
+}
+
+.card {
+	background-color: #ffffff;
+  width: 384px;
+  height: 535px;
+  padding: 25px 25px 25px 25px;
+  border-radius: 20px;
+  border: 1px solid #111111;
+  box-shadow: 8px 8px 0px #111;
+}
+
+p{
+  font-size: 16px;
+  line-height: 150%;
+  margin: 7px 0px 7px 0px;
+}
+
+.tag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4D04E;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.tag p{
+  margin: 0 auto;
+}
+
+.description{
+  color: #6b6b6b;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.card h3{
+  color: #111111;
+  font-size: 27px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  margin: 16px 0px 16px 0px;
+}
+
+.blog-pic{
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+}
+
+.author{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.profile-pic{
+  width: 40px;
+  height: 40px;
+  padding-right: 15px;
+}
+
+.author p{
+  font-weight: bold;
+}
